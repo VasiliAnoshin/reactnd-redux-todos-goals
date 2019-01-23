@@ -7,3 +7,7 @@ This repo is a code-along project for the React & Redux Course of the [React Nan
 2. Install the dependencies - `npm install`
 3. Start the app - `npm start`
 
+## Lesson Summary
+1) How is state updated in Redux applications?
+
+2) What is the store?
