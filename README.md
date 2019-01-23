@@ -33,14 +33,14 @@ So far, our rules are:
 square() is a pure function because it outputs the same value every single time, given that the same argument is passed into it. There is no dependence on any other values to produce that result, and we can safely expect just that result to be returned -- no side effects (more on this in a bit!).
 
 On the other hand, let’s check out an example of an impure function, calculateTip():
-
 <code class="lang-js">
   <pre>
-  <span class="hljs-comment">// `calculateTip()` is an impure function</span>
-  <span class="hljs-keyword">const</span> tipPercentage = <span class="hljs-number">0.15</span>;
-  <span class="hljs-keyword">const</span> calculateTip = cost =&gt; cost * tipPercentage;
+  <span>// `calculateTip()` is an impure function</span>
+  <span>const</span> tipPercentage = <span class="hljs-number">0.15</span>;
+  <span>const</span> calculateTip = cost =&gt; cost * tipPercentage;
   </code>
   </pre>
+ </code>
 
 calculateTip() calculates and returns a number value. However, it relies on a variable (tipPercentage) that lives outside the function to produce that value. Since it fails one of the requirements of pure functions, calculateTip() is an impure function.
 
