@@ -62,4 +62,4 @@ Store complected from 4 parts :
 </ol>
 
 <h5>State Tree </h5>
-One of the key points of Redux is that all of the data is stored in a single object called the state tree.In another words state tree is an object that stores the entire<span><b> state</b></span> for an application.
+One of the key points of Redux is that <b>all of the data</b> is stored in a single object called the state tree.In another words state tree is an object that stores the entire<span><b> state</b></span> for an application.
