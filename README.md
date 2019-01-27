@@ -63,3 +63,23 @@ Store complected from 4 parts :
 
 <h5>State Tree </h5>
 One of the key points of Redux is that <b>all of the data</b> is stored in a single object called the state tree.In another words state tree is an object that stores the entire<span><b> state</b></span> for an application.
+
+<h5>getState()</h5>
+returns the currents state.
+<h5>Reducers</h5>
+are pure functions that take in a state and action and return a new state.
+
+<h5>actions:</h5>
+ we record all the possible events that can take place </br>
+ storing each one in a javascript object called an Action </br>
+ in redux, every action must have a TYPE property </br>
+ this TYPE property declares exactly and specifically the event : IE ADD_ITEM, DELETE_ITEM </br>
+ in addition to the type property, we can add other properties </br>
+ related to the action that gives us more info on how the action </br>
+
+ <code class="lang-js">
+{
+    type: ADD_PRODUCT_TO_CART,
+    productID: 17
+}
+</code>
