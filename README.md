@@ -51,3 +51,15 @@ calculateTip() calculates and returns a number value. However, it relies on a va
 For our purposes, the most important feature of a pure function is that it's predictable. If we have a function that takes in our state and an action that occurred, the function should (if it's pure!) return the exact same result every single time.
 
 <h5>What is the store?</h5>
+A store holds the whole state tree of your application. The only way to change the state inside it is to dispatch an action on it.
+A store is not a class. It's just an object with a few methods on it. To create it, pass your root reducing function to createStore.
+Store complected from 4 parts :
+<ol>
+<li>the state tree</li>
+<li>a way to get the state tree</li>
+<li>a way to listen and respond to the state changing</li>
+<li>a way to update the state</li>
+</ol>
+
+<h5>State Tree </h5>
+One of the key points of Redux is that all of the data is stored in a single object called the state tree.
