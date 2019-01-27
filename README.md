@@ -115,3 +115,4 @@ and the details specific for that action
   
 useful links :
 Example of Store : https://codesandbox.io/s/v3k8y2pv07
+Redux docs: https://redux.js.org/glossary#action
