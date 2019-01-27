@@ -69,13 +69,12 @@ returns the currents state.
 <h5>Reducers</h5>
 are pure functions that take in a state and action and return a new state.
 
-<h5>actions:</h5>
- we record all the possible events that can take place </br>
- storing each one in a javascript object called an Action </br>
- in redux, every action must have a TYPE property </br>
+<h5>Actions:</h5>
+ we record all the possible events that can take place. </br>
+ storing each one in a javascript object called an Action. </br>
+ in redux, every action must have a TYPE property. </br>
  this TYPE property declares exactly and specifically the event : IE ADD_ITEM, DELETE_ITEM </br>
- in addition to the type property, we can add other properties </br>
- related to the action that gives us more info on how the action </br>
+ in addition to the type property, we can add other properties related to the action that gives us more info </br>
 
  <code class="lang-js">
 {
@@ -83,3 +82,15 @@ are pure functions that take in a state and action and return a new state.
     productID: 17
 }
 </code>
+
+<h5>Action creators: </h5>
+Action creators are functions that create & return an action object
+<pre>
+<code>
+  const addItem = item => ({
+      type: ADD_ITEM,
+      item   // this is ES6 syntax. same as typing item : item in ES5.
+})
+</code>
+</pre>
+  
