@@ -114,5 +114,5 @@ and the details specific for that action
 </pre>
   
 useful links :
-Example of Store : https://codesandbox.io/s/v3k8y2pv07
+Example of Store : https://codesandbox.io/s/v3k8y2pv07 </br>
 Redux docs: https://redux.js.org/glossary#action
