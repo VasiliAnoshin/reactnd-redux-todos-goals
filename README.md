@@ -15,6 +15,9 @@ So far, our rules are:
   <li>Only an event can change the state of the store.</li>
   <li>The function that returns the new state needs to be a pure function.</li>
 </ol>
+<p>TO update the state, you call the dispatch method with an argument.</p>
+<p>The argument is an action creator function with an action type ('ADD_TODO' for ex) passed to it. </p>
+<p>That will update the state per the details of the action/event. </p>
 <h5>What are Pure Functions? </h5>
 
 <p>Pure functions are integral to how state in Redux applications is updated. By definition, pure functions:</p>
