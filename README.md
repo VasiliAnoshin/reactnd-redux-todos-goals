@@ -93,4 +93,25 @@ Action creators are functions that create & return an action object
 })
 </code>
 </pre>
+
+<h5> .dispatch() </h5>
+modifes the state</br>
+to upate state, you call dispatch.</br>
+when you call it, you pass it the ation objet
+the action object describes by the type of action to take, 
+and the details specific for that action
+<pre>
+<code>
+.dispatch({
+    type: ADD_TODO,
+    todo: {
+        id:0,
+        name: 'Learn React',
+        complete: false
+    }
+})
+</code>
+</pre>
   
+useful links :
+Example of Store : https://codesandbox.io/s/v3k8y2pv07
